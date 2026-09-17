@@ -10,7 +10,7 @@ schema design, forms, and VBA automation.
 - One-click export to Excel
 
 ## Schema
-![Relationships](docs/relationships.png)
+![Relationships](docs/Relationships.png)
 
 ## Known limitations
 - Duplicate detection only catches exact matches
