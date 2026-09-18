@@ -9,12 +9,20 @@ schema design, forms, and VBA automation.
 - VBA-driven data quality check (duplicate orders, suspicious quantities)
 - One-click export to Excel
 
+## Security
+- All data-insertion logic uses parameterized queries (DAO 'QueryDef'+ 'Parameters') rather than string=concatenated SQL to avoid injection risks
+
 ## Schema
 ![Relationships](docs/Relationships.png)
 
 ## Known limitations
-- Duplicate detection only catches exact matches
-- ...
+- Form and subform design needs work and added functionality 
+- Needs more records for better query visualization
+- Some automatization for inserting more records (maybe with randomization) would be nice
+- Need to work with reports (generate, add to forms)
+- Create more queries to demonstrate functionality with entry parameters
+- Create main Form which opens on entry to navigate different windows and macros/modules
+- Create more tables in the future to demonstrate 1-1, many-many relationships
 
 ## How to run
 1. Open `SimpleSupplyChain.accdb`
